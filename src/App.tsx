@@ -1,19 +1,18 @@
 import './App.css';
-import React from 'react'
 import Header from './Header';
-import Routes from './routes';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import Home from './Home';
+import Soda from './pages/soda/Soda';
+
 
 function App() {
   return (
-    <>
-      <header>
-        <Header />
-      </header>
-
-      <main>
-        <Routes />
-      </main>
-    </>
+    <Router>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path='/soda' element={<Soda />} />
+      </Routes>
+    </Router>
   );
 }
 
