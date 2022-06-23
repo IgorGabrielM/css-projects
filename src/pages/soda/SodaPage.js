@@ -1,6 +1,7 @@
 import React from 'react'
+import './Soda.css'
 
-const Soda = () => {
+const SodaPage = () => {
     return (
         <div className='body'>
             <div className="card">
@@ -42,4 +43,4 @@ const Soda = () => {
     )
 }
 
-export default Soda
+export default SodaPage
