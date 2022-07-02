@@ -1,0 +1,36 @@
+.container{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+}
+
+.display{
+    background-color: antiquewhite;
+    padding: 1px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.display p{
+    margin: 10px;
+    font-size: 25px;
+}
+
+.keyboard{
+    width: 50%;
+    background-color: rgb(36, 36, 36);
+    border-radius: 5px;
+}
+
+.buttonNumber{
+    background-color: rgb(75, 75, 75);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 2px;
+    border: none;
+}
+
+.buttonNumber:active{
+    background-color: rgb(24, 24, 24);
+}
